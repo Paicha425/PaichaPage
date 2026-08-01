@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Paicha – Interaktiver PDF-Validator für digitale Barrierefreiheit</title>
+
+    <meta name="description"
+          content="Ein Projekt zur Entwicklung eines interaktiven Validators für barrierefreie PDF-Dokumente nach PDF/UA und europäischen Standards.">
+
+    <meta name="author" content="Paicha">
+
+    <meta property="og:title"
+          content="Paicha – Interaktiver PDF-Validator für digitale Barrierefreiheit">
+
+    <meta property="og:description"
+          content="Ein Projekt zur Entwicklung eines interaktiven Validators für barrierefreie PDF-Dokumente nach PDF/UA und europäischen Standards.">
+
+    <meta property="og:type"
+          content="website">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">
+    Direkt zum Inhalt springen
+</a>
+
+<header>
+
+    <div class="container">
+
+        <div class="header-top">
+
+            <div class="logo">
+
+                <span class="logo-title">
+                    Paicha
+                </span>
+
+                <span class="logo-subtitle">
+                    PDF Accessibility - Interactive Check Assistant
+                </span>
+
+            </div>
+
+            <nav aria-label="Hauptnavigation">
+
+                <ul>
+
+                    <li>
+                        <a href="#motivation">
+                            Motivation
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#unterstuetzung">
+                            Unterstützen
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#gesetz">
+                            Gesetzlicher Rahmen
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#validator">
+                            Warum Paicha?
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#roadmap">
+                            Projektstatus
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#ueber-mich">
+                            Über mich
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#kontakt">
+                            Kontakt
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <section class="hero">
+
+            <div class="hero-text">
+
+                <h1>
+
+                    Ein interaktiver<br>
+                    PDF-Validator für<br>
+                    digitale Barrierefreiheit
+
+                </h1>
+
+                <p class="lead">
+
+                    Digitale Barrierefreiheit darf nicht vom verwendeten
+                    Betriebssystem abhängen.
+
+                </p>
+
+                <p>
+                    Paicha ist ein unabhängiges Softwareprojekt mit dem Ziel,
+                    einen anwenderfreundlichen Validator für barrierefreie
+                    PDF-Dokumente zu entwickeln. Die Software soll unter
+                    Windows, Linux und macOS gleichermaßen verfügbar sein
+                    und Unternehmen, Verwaltungen sowie Bildungseinrichtungen
+                    aktiv bei der Umsetzung digitaler Barrierefreiheit
+                    unterstützen.<br><br>
+
+                    Aktuell wird ein Finanzierungspartner gesucht, um die
+                    Entwicklung zu einer vollständig nutzbaren Version
+                    fortzuführen.
+                </p>
+
+            </div>
+
+            <aside class="project-status"
+                   aria-labelledby="projektstatus">
+
+                <h2 id="projektstatus">
+                    Projektfortschritt
+                </h2>
+
+                <ul>
+
+                    <li class="done">
+                        ✔ Projektidee entwickelt
+                    </li>
+
+                    <li class="done">
+                        ✔ Architektur entworfen
+                    </li>
+
+                    <li class="done">
+                        ✔ Erste Validatorregeln implementiert
+                    </li>
+
+                    <li class="progress">
+                        ✚ Nutzbarer technischer Demonstrator
+                    </li>
+
+                    <li>
+                        ○ Erweiterung der Prüfregeln
+                    </li>
+
+                    <li>
+                        ○ Tests und Qualitätssicherung
+                    </li>
+
+                    <li>
+                        ○ Version&nbsp;1.0
+                    </li>
+
+                </ul>
+
+            </aside>
+
+        </section>
+
+    </div>
+
+</header>
+
+<main id="main-content">
+
+<div class="container">
+
+<section id="motivation">
+
+    <h2>
+        Motivation
+    </h2>
+
+    <p class="intro">
+
+        Jeden Tag werden unzählige PDF-Dokumente veröffentlicht:
+        Formulare, Satzungen, Geschäftsberichte,
+        Studienunterlagen, Bedienungsanleitungen oder
+        Informationsbroschüren.
+
+        Damit diese Dokumente für alle Menschen gleichermaßen
+        zugänglich sind, müssen sie barrierefrei erstellt werden.
+
+    </p>
+
+    <p>
+
+        Für Menschen, die Screenreader oder andere assistive Technologien
+        nutzen, reicht ein optisch gut gestaltetes Dokument allein nicht aus.
+        Erst eine korrekte semantische Struktur ermöglicht die sinnvolle
+        Interpretation eines PDF-Dokuments. Dazu gehören beispielsweise
+        Überschriftenhierarchien, Alternativtexte für Abbildungen,
+        Tabellenstrukturen, Formularbeschriftungen sowie eine eindeutige
+        Lesereihenfolge.
+
+    </p>
+
+    <p>
+
+        Die Überprüfung dieser Anforderungen ist anspruchsvoll und erfordert
+        spezialisierte Prüfwerkzeuge. Gleichzeitig nimmt die Bedeutung
+        barrierefreier Dokumente durch gesetzliche Vorgaben und den
+        fortschreitenden Ausbau digitaler Verwaltungs- und
+        Geschäftsprozesse kontinuierlich zu.
+
+    </p>
+
+    <p>
+
+        Paicha verfolgt das Ziel, diese Prüfung einfacher zugänglich zu machen.
+        Ein hochwertiges Prüfwerkzeug sollte unabhängig vom verwendeten
+        Betriebssystem eingesetzt werden können und den gleichen Zugang für
+        alle Nutzerinnen und Nutzer ermöglichen.
+
+    </p>
+
+</section>
+
+<section id="unterstuetzung">
+
+    <h2>
+        Das Projekt sucht Unterstützung
+    </h2>
+
+    <p class="intro">
+        Digitale Barrierefreiheit ist eine gesellschaftliche Aufgabe.
+    </p>
+
+    <p>
+        Mit Paicha entsteht ein Werkzeug, das Unternehmen, Verwaltungen
+        und Bildungseinrichtungen dabei unterstützen soll, barrierefreie
+        PDF-Dokumente einfacher zu prüfen und damit die Qualität der
+        Dokumente zu verbessern.
+    </p>
+
+    <p>
+        Das Projekt befindet sich derzeit in der Eigenentwicklung.
+        Für die Weiterentwicklung zu einer fertigen Lösung
+        werden Partner gesucht, die dieses Projekt gemeinsam unterstützen möchten.
+    </p>
+
+    <p>
+        Eine Finanzierung ermöglicht insbesondere:
+        <ul>
+            <li> den Ausbau des Regelwerks </li>
+            <li> umfangreiche Tests </li>
+            <li> plattformübergreifende Qualitätssicherung </li>
+            <li> Entwicklung einer intuitiven Benutzeroberfläche </li>
+            <li> Dokumentation </li>
+            <li> langfristige Wartung </li>
+        </ul>
+    </p>
+
+</section>
+
+<section id="gesetz">
+
+    <h2>
+        Gesetzlicher Rahmen
+    </h2>
+
+    <p class="intro">
+
+        Digitale Barrierefreiheit ist längst kein freiwilliges Qualitätsmerkmal
+        mehr, sondern Bestandteil gesetzlicher Anforderungen innerhalb der
+        Europäischen Union.
+
+    </p>
+
+    <p>
+
+        Mit dem
+        <strong>European Accessibility Act (EAA)</strong>
+        wurden europaweit einheitliche Anforderungen an die Barrierefreiheit
+        zahlreicher Produkte und Dienstleistungen geschaffen.
+        In Deutschland erfolgt die Umsetzung durch das
+        <strong>Barrierefreiheitsstärkungsgesetz (BFSG)</strong>,
+        dessen Regelungen seit dem
+        <strong>28.&nbsp;Juni&nbsp;2025</strong>
+        für viele Unternehmen verbindlich gelten.
+
+    </p>
+
+    <p>
+
+        Bereits zuvor waren öffentliche Stellen des Bundes und der Länder
+        verpflichtet, ihre digitalen Angebote möglichst barrierefrei
+        bereitzustellen.
+        Die Anforderungen orientieren sich dabei unter anderem an der
+        europäischen Norm
+        <strong>EN&nbsp;301&nbsp;549</strong>,
+        welche in vielen Bereichen auf die
+        <strong>Web Content Accessibility Guidelines (WCAG)</strong>
+        verweist.
+
+    </p>
+
+    <p>
+
+        Für PDF-Dokumente bildet darüber hinaus
+        <strong>PDF/UA (ISO&nbsp;14289)</strong>
+        den international anerkannten Standard für barrierefreie
+        elektronische Dokumente.
+        Die Einhaltung dieser Anforderungen gewinnt sowohl für öffentliche
+        Einrichtungen als auch für Unternehmen zunehmend an Bedeutung.
+
+    </p>
+
+    <p>
+        Daraus ergibt sich ein wachsender Bedarf an zuverlässigen Werkzeugen
+        zur Qualitätssicherung barrierefreier PDF-Dokumente.
+    </p>
+
+</section>
+
+<section id="validator">
+
+    <h2>
+        Warum ein neuer Validator?
+    </h2>
+
+    <p class="intro">
+        Es existieren bereits Werkzeuge zur Prüfung barrierefreier
+        PDF-Dokumente.
+        Dennoch besteht insbesondere im Bereich plattformübergreifender
+        Software weiterhin Entwicklungsbedarf.
+    </p>
+
+    <p>
+        Mit dem <strong> PDF Accessibility Checker (PAC) </strong>
+        und <strong>veraPDF</strong> gibt es bereits etablierte Lösungen.
+        Beide erfüllen wichtige Aufgaben, verfolgen jedoch unterschiedliche
+        Schwerpunkte.
+    </p>
+
+    <p>
+        PAC bietet eine anwenderfreundliche Oberfläche mit
+        visueller Unterstützung bei der Analyse der Dokumentstruktur und
+        erleichtert dadurch insbesondere die manuelle Prüfung, gleichzeitig
+        ist PAC aber ausschließlich für Windows verfügbar. Organisationen,
+        die Linux oder macOS einsetzen, verfügen derzeit über keine Lösung
+        mit vergleichbarem Funktionsumfang.
+    </p>
+
+    <p>
+        Dahingegen ist veraPDF als plattformübergreifendes Open-Source-Projekt
+        auf allen Betriebssystemen lauffähig. Der Fokus liegt jedoch auf der
+        technischen Prüfung normativer Anforderungen. Die visuelle Unterstützung
+        bei der Analyse von Struktur, Lesereihenfolge und Tagging fällt im Vergleich
+        zu PAC deutlich geringer aus und richtet sich eher an technisch
+        versierte Nutzerinnen und Nutzer.
+    </p>
+
+    <p>
+        Damit ergibt sich eine Lücke: Derzeit existiert kein Prüfwerkzeug, das die
+        plattformübergreifende Verfügbarkeit von veraPDF mit der benutzerfreundlichen,
+        visuellen Unterstützung von PAC verbindet. Genau da möchte ich mit Paicha ansetzen.
+    </p>
+
+</section>
+
+<section id="roadmap">
+
+    <h2>
+        Projektstatus
+    </h2>
+
+    <p class="intro">
+
+        Paicha befindet sich noch in der Entwicklung.
+        Aktuell existiert bereits eine funktionsfähige Architektur sowie eine
+        Implementierung erster Validierungsregeln.
+
+    </p>
+
+    <div class="roadmap">
+
+        <div class="roadmap-item done">
+
+            <span class="roadmap-marker">
+                ✓
+            </span>
+
+            <div>
+
+                <h3>
+                    Erfüllt: Projektidee
+                </h3>
+
+                <p>
+                    Definition der Zielsetzung und Analyse bestehender
+                    Prüfwerkzeuge.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="roadmap-item done">
+
+            <span class="roadmap-marker">
+                ✓
+            </span>
+
+            <div>
+
+                <h3>
+                    Erfüllt: Softwarearchitektur
+                </h3>
+
+                <p>
+                    Entwicklung einer modularen und plattformunabhängigen
+                    Architektur als Grundlage des Validators.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="roadmap-item done">
+
+            <span class="roadmap-marker">
+                ✓
+            </span>
+
+            <div>
+
+                <h3>
+                    Erfüllt: Erste Validatorregeln
+                </h3>
+
+                <p>
+                    Implementierung erster Prüfungen für die Analyse
+                    barrierefreier PDF-Dokumente.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="roadmap-item progress">
+
+            <span class="roadmap-marker">
+                ✚
+            </span>
+
+            <div>
+
+                <h3>
+                    In Bearbeitung: Nutzbarer technischer Demonstrator
+                </h3>
+
+                <p>
+                    Bereitstellung eines technischen Prototyps zur Validierung
+                    der Kernidee für interessierte Anwenderinnen und Anwender
+                    sowie Einrichtungen, die den Validator im praktischen Einsatz
+                    evaluieren möchten.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="roadmap-item">
+
+            <span class="roadmap-marker">
+                ○
+            </span>
+
+            <div>
+
+                <h3>
+                    Ausstehend: Erweiterung der Prüfregeln
+                </h3>
+
+                <p>
+                    Schrittweise Umsetzung weiterer Prüfungen für PDF/UA,
+                    semantische Dokumentstrukturen sowie zusätzliche
+                    Anforderungen europäischer Standards.
+                </p>
+
+            </div>
+
+        </div>
+
+                <div class="roadmap-item">
+
+            <span class="roadmap-marker">
+                ○
+            </span>
+
+            <div>
+
+                <h3>
+                    Ausstehend: Tests und Qualitätssicherung
+                </h3>
+
+                <p>
+                    Umfangreiche automatisierte Softwaretests zur
+                    Qualitätssicherung der implementierten Prüfregeln
+                    sowie Anwendungstests unter verschiedenen Betriebssystemen.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="roadmap-item">
+
+            <span class="roadmap-marker">
+                ○
+            </span>
+
+            <div>
+
+                <h3>
+                    Ausstehend: Version&nbsp;1.0
+                </h3>
+
+                <p>
+                    Veröffentlichung einer stabilen Version mit einer
+                    intuitiven und gut strukturierten Benutzeroberfläche
+                    für die Validierung barrierefreier PDF-Dokumente.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="ueber-mich">
+
+    <h2>
+        Über mich
+    </h2>
+
+    <p class="intro">
+
+        Hinter Paicha steht kein Unternehmen, sondern ein
+        eigenständigs Softwareprojekt in der Entwicklungsphase.
+
+    </p>
+    
+    <p>
+        Moin,<br>
+        ich bin ein Softwareentwickler aus Schleswig-Holstein und beschäftige mich
+        hauptberuflich seit ein paar Jahren mit der Programmierung von Windkraftanlagen,
+        deren Software komplexer aufgebaut ist, als so manch einer denkt. Der Bereich
+        passt nach einem erfolgreichen Ingenieursstudium in der Elektrotechnik und
+        Informationstechnik auch ziemlich gut zu mir.<br>
+        Doch seit Anfang des Jahres beschäftigt mich noch ein ganz anderes Thema,
+        nämlich die Frage, wie digitale Dokumente für Anwenderinnen und Anwender
+        mit Einschränkungen gut genutzt werden können.
+    </p>
+
+    <p>
+        Das Ganze begann mit einer Bemerkung meines besten Freundes. Aufgrund
+        einer Erkrankung wird er in Zukunft zunehmend auf barrierefreie Dokumente
+        angewiesen sein.
+        Er hat sich bereits mit dem Thema auseinandergesetzt und mir bewusst
+        gemacht, welche Bedeutung digitale Barrierefreiheit für viele Menschen
+        im Alltag besitzt, aber wie viel Bedarf ausgerechnet in diesem Bereich
+        heute noch existiert.
+    </p>
+
+    <p>
+        Barrierefreiheit sollte keine Hürde darstellen – weder für Menschen noch
+        für Organisationen, die digitale Informationen bereitstellen.<br>
+        Mein Ziel mit Paicha ist es nicht einfach nur ein Prüfwerkzeug zu entwickeln,
+        sondern einen Beitrag zu leisten, der allen Personen gleichermaßen Zugang
+        zur Digitalisierung erlaubt.
+    </p>
+
+</section>
+
+<section id="kontakt">
+
+    <h2>
+        Kontakt
+    </h2>
+
+    <p>
+        Sie vertreten eine öffentliche Einrichtung, ein Unternehmen
+        oder eine Förderorganisation und möchten die Entwicklung eines
+        plattformunabhängigen Werkzeugs für digitale Barrierefreiheit
+        unterstützen?<br>
+        Ich freue mich über den Austausch.
+    </p>
+
+    <address>
+
+        <strong>Paicha</strong><br>
+
+        PDF Accessibility - Interactive Check Assistant<br><br>
+
+        E-Mail:
+        <a href="mailto:info.paicha@gmail.com">
+            info.paicha@gmail.com
+        </a>
+
+    </address>
+
+</section>
+
+</div>
+
+</main>
+
+<footer>
+
+    <div class="container footer-content">
+
+        <div>
+
+            <strong>Paicha</strong><br>
+
+            PDF Accessibility - Interactive Check Assistant
+
+        </div>
+
+        <div>
+
+            © 2026 Paicha
+
+            <nav>
+                <a href="impressum.html">Impressum</a>
+            </nav>
+
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>
