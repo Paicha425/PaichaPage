@@ -6,3 +6,10 @@ Paicha is an independent project for developing a user-friendly, cross-plattform
 The goal is to make the validation of accessible PDF documents easier by combining automated checks with interactive support   for manual checks that need to be executed by a human.<br>
 The project is currently under development and already has a modular architecture and initial PDF accessibility validation rules. A usable technical demonstrator is the next step in the process.
 </p>
+
+<h2>Project Website</h2>
+<p>
+The project website contains more information about the motivation, development status and goals of Paicha:<br>
+https://paicha425.github.io/PaichaPage/<br>
+Currently it is only available in German, but an Englisch version of the website is coming soon.
+</p>
