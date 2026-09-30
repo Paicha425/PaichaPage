@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
 
@@ -8,18 +8,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Paicha – Interaktiver PDF-Validator für digitale Barrierefreiheit</title>
+    <title>Paicha – Interactive PDF validator for digital accessibility</title>
 
     <meta name="description"
-          content="Ein Projekt zur Entwicklung eines interaktiven Validators für barrierefreie PDF-Dokumente nach PDF/UA und europäischen Standards.">
+          content="A project to develop an interactive validator for accessible PDF documents following PDF/UA and European standards.">
 
     <meta name="author" content="Paicha">
 
     <meta property="og:title"
-          content="Paicha – Interaktiver PDF-Validator für digitale Barrierefreiheit">
+          content="Paicha – Interactive PDF validator for digital accessibility">
 
     <meta property="og:description"
-          content="Ein Projekt zur Entwicklung eines interaktiven Validators für barrierefreie PDF-Dokumente nach PDF/UA und europäischen Standards.">
+          content="A project to develop an interactive validator for accessible PDF documents following PDF/UA and European standards.">
 
     <meta property="og:type"
           content="website">
@@ -31,7 +31,7 @@
 <body>
 
 <a class="skip-link" href="#main-content">
-    Direkt zum Inhalt springen
+    Jump directly to the content
 </a>
 
 <header>
@@ -52,55 +52,63 @@
 
             </div>
 
-            <nav aria-label="Hauptnavigation">
+            <div class="header-top-right">
+                <div class="language-toggle">
+                <a href="index.html" class="active">EN</a>
+                <span>/</span>
+                <a href="index-de.html">DE</a>
+                </div>
 
-                <ul>
+                <nav aria-label="Hauptnavigation">
 
-                    <li>
-                        <a href="#motivation">
-                            Motivation
-                        </a>
-                    </li>
+                    <ul>
 
-                    <li>
-                        <a href="#unterstuetzung">
-                            Unterstützen
-                        </a>
-                    </li>
+                        <li>
+                            <a href="#motivation">
+                                Motivation
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="#gesetz">
-                            Gesetzlicher Rahmen
-                        </a>
-                    </li>
+                        <li>
+                            <a href="#support">
+                                Support
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="#validator">
-                            Warum Paicha?
-                        </a>
-                    </li>
+                        <li>
+                            <a href="#law">
+                                Legal framework
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="#roadmap">
-                            Projektstatus
-                        </a>
-                    </li>
+                        <li>
+                            <a href="#validator">
+                                Why Paicha?
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="#ueber-mich">
-                            Über mich
-                        </a>
-                    </li>
+                        <li>
+                            <a href="#roadmap">
+                                Project status
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="#kontakt">
-                            Kontakt
-                        </a>
-                    </li>
+                        <li>
+                            <a href="#about-me">
+                                About me
+                            </a>
+                        </li>
 
-                </ul>
+                        <li>
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </li>
 
-            </nav>
+                    </ul>
+
+                </nav>
+            </div>
 
         </div>
 
@@ -109,31 +117,25 @@
             <div class="hero-text">
 
                 <h1>
-
-                    Ein interaktiver<br>
-                    PDF-Validator für<br>
-                    digitale Barrierefreiheit
-
+                    An interactive<br>
+                    PDF validator for<br>
+                    digital accessibility
                 </h1>
 
                 <p class="lead">
-
-                    Digitale Barrierefreiheit muss intuitiv prüfbar sein.
-
+                    Digital accessibility should be intuitive to validate.
                 </p>
 
                 <p>
-                    Paicha ist ein unabhängiges Softwareprojekt mit dem Ziel,
-                    einen besonders anwenderfreundlichen Validator für barrierefreie
-                    PDF-Dokumente zu entwickeln. Die Software soll unter
-                    Windows, Linux und macOS gleichermaßen verfügbar sein
-                    und Unternehmen, Verwaltungen sowie Bildungseinrichtungen
-                    aktiv bei der Umsetzung digitaler Barrierefreiheit
-                    unterstützen.<br><br>
+                    Paicha is an independent software project with the goal of
+                    developing a user-friendly validator for checking the
+                    accessibility of PDF documents. The software is intended to be
+                    equally available for Windows, Linux and maxOS and is designed to
+                    actively help companies, administrations and educational
+                    institutions in realising digital accessibility.<br><br>
 
-                    Aktuell wird ein Finanzierungspartner gesucht, um die
-                    Entwicklung zu einer vollständig nutzbaren Version
-                    fortzuführen.
+                    I am currently looking for a funding partner to continue
+                    development up to a fully usable version.
                 </p>
 
             </div>
@@ -142,37 +144,37 @@
                    aria-labelledby="projektstatus">
 
                 <h2 id="projektstatus">
-                    Projektfortschritt
+                    Project progress
                 </h2>
 
                 <ul>
 
                     <li class="done">
-                        ✔ Projektidee entwickelt
+                        ✔ Project idea defined
                     </li>
 
                     <li class="done">
-                        ✔ Architektur entworfen
+                        ✔ Architecture designed
                     </li>
 
                     <li class="done">
-                        ✔ Erste Validatorregeln implementiert
+                        ✔ First validator checks implemented
                     </li>
 
                     <li class="progress">
-                        ✚ Nutzbarer technischer Demonstrator
+                        ✚ Usable technical demonstrator
                     </li>
 
                     <li>
-                        ○ Erweiterung der Prüfregeln
+                        ○ More validator checks
                     </li>
 
                     <li>
-                        ○ Tests und Qualitätssicherung
+                        ○ Testing and quality assurance
                     </li>
 
                     <li>
-                        ○ Intuitive Benutzeroberfläche
+                        ○ Intuitive user interface
                     </li>
 
                     <li>
@@ -200,135 +202,104 @@
     </h2>
 
     <p class="intro">
-        Jeden Tag werden unzählige PDF-Dokumente veröffentlicht:
-        Formulare, Satzungen, Geschäftsberichte,
-        Studienunterlagen, Bedienungsanleitungen oder
-        Informationsbroschüren.
+        Every day, countless PDF documents are published: forms, statutes, annual reports,
+        study materials, user manuals or information brochures.
 
-        Damit diese Dokumente für alle Menschen gleichermaßen
-        zugänglich sind, müssen sie barrierefrei erstellt werden.
+        To make these documents accessible to everyone, they need to be
+        created in an accessible way.
     </p>
 
     <p>
-        Für Menschen, die Screenreader oder andere assistive Technologien
-        nutzen, reicht ein optisch gut gestaltetes Dokument allein nicht aus.
-        Erst eine korrekte semantische Struktur ermöglicht die sinnvolle
-        Interpretation eines PDF-Dokuments. Dazu gehören beispielsweise
-        Überschriftenhierarchien, Alternativtexte für Abbildungen,
-        Tabellenstrukturen, Formularbeschriftungen sowie eine eindeutige
-        Lesereihenfolge.
+        For people who use screen readers or other assistive technologies,
+        a document that simply looks well designed is not enough.
+        A correct semantic structure is needed so that a PDF document can
+        be interpreted in a meaningful way. This includes i.e. a clear
+        heading structure, alternative texts for images, structured tables,
+        labels for formulas and a clear reading order.
     </p>
 
     <p>
-        Die Überprüfung dieser Anforderungen ist anspruchsvoll und erfordert
-        spezialisierte Prüfwerkzeuge. Gleichzeitig nimmt die Bedeutung
-        barrierefreier Dokumente durch gesetzliche Vorgaben und den
-        fortschreitenden Ausbau digitaler Verwaltungs- und
-        Geschäftsprozesse kontinuierlich zu.
+        Validating these requirements is challenging and needs specialised tools.
+        At the same time, the importance of accessible documents is continuously
+        increasing driven by legal requirements and the growing use of digital
+        processes in public administration and business.
     </p>
 
     <p>
-        Paicha verfolgt das Ziel, diese Prüfung einfacher zugänglich zu machen.
-        Ein hochwertiges Prüfwerkzeug sollte sowohl unabhängig vom verwendeten
-        Betriebssystem eingesetzt werden können als auch für alle Nutzerinnen
-        und Nutzer leicht bedienbar sein.
+        Paicha aims to make this type of validation more easily accessible.
+        A high quality validation tool should work independent of the operating
+        system being used and should also be easy to use for all users.
     </p>
 
 </section>
 
-<section id="unterstuetzung">
+<section id="support">
 
     <h2>
-        Das Projekt sucht Unterstützung
+        The project is looking for support
     </h2>
 
     <p class="intro">
-        Digitale Barrierefreiheit ist eine gesellschaftliche Aufgabe.
+        Digital accessibility is a task for the whole society.
     </p>
 
     <p>
-        Mit Paicha entsteht ein Werkzeug, das Unternehmen, Verwaltungen
-        und Bildungseinrichtungen dabei unterstützen soll, barrierefreie
-        PDF-Dokumente einfacher zu prüfen und damit die Qualität der
-        Dokumente zu verbessern.
+        Paicha is being developed as a tool to help companies, administrations
+        and educational institutions check PDF documents for accessibility
+        more easily and therefore improve their quality.
     </p>
 
     <p>
-        Das Projekt befindet sich derzeit in der Eigenentwicklung.
-        Für die Weiterentwicklung zu einer fertigen Lösung
-        werden Partner gesucht, die dieses Projekt gemeinsam unterstützen möchten.
+        The project is currently being developed independently. To continue
+        development towards a complete solution, I am looking for partners
+        who would like to support the project.
     </p>
 
     <p>
-        Eine Finanzierung ermöglicht insbesondere:
+        Funding would help me to make this possible:
         <ul>
-            <li> den Ausbau des Regelwerks </li>
-            <li> umfangreiche Tests </li>
-            <li> plattformübergreifende Qualitätssicherung </li>
-            <li> Entwicklung einer intuitiven Benutzeroberfläche </li>
-            <li> Dokumentation </li>
-            <li> langfristige Wartung </li>
+            <li> expand the amount of accessibility checks </li>
+            <li> extensive testing </li>
+            <li> ensure quality across different operating systems </li>
+            <li> develop an intuitive user interface </li>
+            <li> create a documentation </li>
+            <li> provide long-term maintenance </li>
         </ul>
     </p>
 
 </section>
 
-<section id="gesetz">
+<section id="law">
 
     <h2>
-        Gesetzlicher Rahmen
+        Legal framework
     </h2>
 
     <p class="intro">
-
-        Digitale Barrierefreiheit ist längst kein freiwilliges Qualitätsmerkmal
-        mehr, sondern Bestandteil gesetzlicher Anforderungen innerhalb der
-        Europäischen Union.
-
+        Digital accessibility is no longer just an optional quality feature.
+        It is already part of legal requirements within the European Union.
     </p>
 
     <p>
-
-        Mit dem
-        <strong>European Accessibility Act (EAA)</strong>
-        wurden europaweit einheitliche Anforderungen an die Barrierefreiheit
-        zahlreicher Produkte und Dienstleistungen geschaffen.
-        In Deutschland erfolgt die Umsetzung durch das
-        <strong>Barrierefreiheitsstärkungsgesetz (BFSG)</strong>,
-        dessen Regelungen seit dem
-        <strong>28.&nbsp;Juni&nbsp;2025</strong>
-        für viele Unternehmen verbindlich gelten.
-
-    </p>
-
-    <p>
-
-        Bereits zuvor waren öffentliche Stellen des Bundes und der Länder
-        verpflichtet, ihre digitalen Angebote möglichst barrierefrei
-        bereitzustellen.
-        Die Anforderungen orientieren sich dabei unter anderem an der
-        europäischen Norm
-        <strong>EN&nbsp;301&nbsp;549</strong>,
-        welche in vielen Bereichen auf die
+        The <strong>European Accessibility Act (EAA)</strong> introduced
+        common accessibility requirements across Europe for many products
+        and services.<br>
+        The requirements are based on the European standard
+        <strong>EN&nbsp;301&nbsp;549</strong>, which refers to
         <strong>Web Content Accessibility Guidelines (WCAG)</strong>
-        verweist.
-
+        in many topics.
     </p>
 
     <p>
-
-        Für PDF-Dokumente bildet darüber hinaus
-        <strong>PDF/UA (ISO&nbsp;14289)</strong>
-        den international anerkannten Standard für barrierefreie
-        elektronische Dokumente.
-        Die Einhaltung dieser Anforderungen gewinnt sowohl für öffentliche
-        Einrichtungen als auch für Unternehmen zunehmend an Bedeutung.
-
+        For PDF documents, <strong>PDF/UA (ISO&nbsp;14289)</strong>
+        is the internationally accepted standard for accessible digital documents.
+        Meeting these requirements is becoming increasingly important for both
+        public institutions and businesses.
     </p>
 
     <p>
-        Daraus ergibt sich ein wachsender Bedarf an zuverlässigen Werkzeugen
-        zur Qualitätssicherung barrierefreier PDF-Dokumente.
+        This results in a growing need for reliable tools for ensuring the
+        quality of accessible PDF documents.
     </p>
 
 </section>
@@ -336,49 +307,45 @@
 <section id="validator">
 
     <h2>
-        Warum ein neuer Validator?
+        Why a new validator?
     </h2>
 
     <p class="intro">
-        Es existieren bereits Werkzeuge zur Prüfung barrierefreier
-        PDF-Dokumente.
-        Dennoch besteht insbesondere im Bereich plattformübergreifender
-        Software weiterhin Entwicklungsbedarf.
+        There are already tools for validating the accessibility of PDF documents.
+        However, there is still room for improvement, especially when it comes to
+        software that works across different operating systems.
     </p>
 
     <p>
-        Mit dem <strong> PDF Accessibility Checker (PAC) </strong>
-        und <strong>veraPDF</strong> gibt es bereits etablierte Lösungen.
-        Beide erfüllen wichtige Aufgaben, verfolgen jedoch unterschiedliche
-        Schwerpunkte.
+        The <strong> PDF Accessibility Checker (PAC) </strong> and
+        <strong>veraPDF</strong> are already established solutions.
+        Both handle important tasks, but each of them with a different focus.
     </p>
 
     <p>
-        PAC bietet eine anwenderfreundliche Oberfläche mit
-        visueller Unterstützung bei der Analyse der Dokumentstruktur und
-        erleichtert dadurch insbesondere die manuelle Prüfung, gleichzeitig
-        ist PAC aber ausschließlich für Windows verfügbar. Organisationen,
-        die Linux oder macOS einsetzen, verfügen derzeit über keine Lösung
-        mit vergleichbarem Funktionsumfang.
+        PAC provides a user-friendly interface with visual support for analysing
+        the structure of a document. This is especially helpful for the manual
+        validation. However, PAC is only available for Windows. Organisations
+        that use Linux or macOS do not have a solution with a similar set
+        of features.
     </p>
 
     <p>
-        Dahingegen ist veraPDF als plattformübergreifendes Open-Source-Projekt
-        auf allen Betriebssystemen lauffähig. Der Fokus liegt jedoch auf der
-        technischen Prüfung normativer Anforderungen. Die visuelle Unterstützung
-        bei der Analyse von Struktur, Lesereihenfolge und Tagging fällt im Vergleich
-        zu PAC deutlich geringer aus und richtet sich eher an technisch
-        versierte Nutzerinnen und Nutzer.
+        veraPDF, on the other hand, is an open-source project that works across all the
+        different operating systems. Its main focus is the technical validation of
+        requirements defined by standards. Compared with PAC, it provides less visual
+        support for analysing document structure, reading order and tagging.
+        It is therefore designed for more technically experienced users.
     </p>
 
     <p>
-        Damit ergibt sich eine Lücke: Derzeit existiert kein Prüfwerkzeug, das die
-        plattformübergreifende Verfügbarkeit von veraPDF mit der benutzerfreundlichen,
-        visuellen Unterstützung von PAC verbindet. Genau da möchte ich mit Paicha ansetzen.<br>
-        Zusätzlich sollen die Prüfschritte, die ausschließlich manuell durchgeführt werden
-        können, im Validator ihren Platz haben und mit Bedienelementen unterstützt werden.
-        Dadurch wird nicht nur ein automatischer Prüfbericht erstellt, sondern der Nutzer
-        interaktiv mit eingebunden.
+        This leaves a gap: There is currently no tool that combines the cross-platform
+        availability of veraPDF with the user-friendly visual support of PAC. This is
+        where I want Paicha to make a difference.<br>
+        Checks that can only be performed manually should also be integrated into
+        the validator and supported by interactive controls. That means that not
+        only a automated test report is being generated, but also the user is actively
+        taking part in the validation process.
     </p>
 
 </section>
@@ -386,15 +353,13 @@
 <section id="roadmap">
 
     <h2>
-        Projektstatus
+        Project status
     </h2>
 
     <p class="intro">
-
-        Paicha befindet sich noch in der Entwicklung.
-        Aktuell existiert bereits eine funktionsfähige Architektur sowie eine
-        Implementierung erster Validierungsregeln.
-
+        Paicha is still under development.
+        A functional software architecture already exists, as well as an
+        implementation of the first validation rules.
     </p>
 
     <div class="roadmap">
@@ -408,12 +373,12 @@
             <div>
 
                 <h3>
-                    Erfüllt: Projektidee
+                    Completed: Project idea
                 </h3>
 
                 <p>
-                    Definition der Zielsetzung und Analyse bestehender
-                    Prüfwerkzeuge.
+                    Definition of the project's goals and analysis of
+                    existing accessibility validation tools.
                 </p>
 
             </div>
@@ -429,12 +394,12 @@
             <div>
 
                 <h3>
-                    Erfüllt: Softwarearchitektur
+                    Completed: Software architecture
                 </h3>
 
                 <p>
-                    Entwicklung einer modularen und plattformunabhängigen
-                    Architektur als Grundlage des Validators.
+                    Development of a modular and platform-independent
+                    architecture as a foundation of the validator.
                 </p>
 
             </div>
@@ -450,12 +415,12 @@
             <div>
 
                 <h3>
-                    Erfüllt: Erste Validatorregeln
+                    Completed: First validation rules
                 </h3>
 
                 <p>
-                    Implementierung erster Prüfungen für die Analyse
-                    barrierefreier PDF-Dokumente.
+                    Implementation of the first checks for analysing
+                    the accessibility of PDF documents.
                 </p>
 
             </div>
@@ -471,14 +436,13 @@
             <div>
 
                 <h3>
-                    In Bearbeitung: Nutzbarer technischer Demonstrator
+                    In progress: Usable technical demonstrator
                 </h3>
 
                 <p>
-                    Bereitstellung eines technischen Prototyps zur Validierung
-                    der Kernidee für interessierte Anwenderinnen und Anwender
-                    sowie Einrichtungen, die den Validator im praktischen Einsatz
-                    evaluieren möchten.
+                    Development of a technical prototype to demonstrate the core
+                    idea to interested users and organisations that would like
+                    to evaluate the validator in practical use.
                 </p>
 
             </div>
@@ -494,13 +458,13 @@
             <div>
 
                 <h3>
-                    Ausstehend: Erweiterung der Prüfregeln
+                    Planned: Additional validation rules
                 </h3>
 
                 <p>
-                    Schrittweise Umsetzung weiterer Prüfungen für PDF/UA,
-                    semantische Dokumentstrukturen sowie zusätzliche
-                    Anforderungen europäischer Standards.
+                    Step-by-step implementation of additional checks for
+                    PDF/UA, semantic document structures and further
+                    requirements from European standards.
                 </p>
 
             </div>
@@ -516,13 +480,13 @@
             <div>
 
                 <h3>
-                    Ausstehend: Tests und Qualitätssicherung
+                    Planned: Testing and quality assurance
                 </h3>
 
                 <p>
-                    Umfangreiche automatisierte Softwaretests zur
-                    Qualitätssicherung der implementierten Prüfregeln
-                    sowie Anwendungstests unter verschiedenen Betriebssystemen.
+                    Extensive automated software tests to ensure the quality of
+                    the implemented validation rules, as well as practical tests
+                    on different operating systems.
                 </p>
 
             </div>
@@ -538,13 +502,13 @@
             <div>
 
                 <h3>
-                    Ausstehend: Intuitive Benutzeroberfläche 
+                    Planned: Intuitive user interface
                 </h3>
 
                 <p>
-                    Entwicklung einer intuitiven und gut strukturierten
-                    Benutzeroberfläche. Interaktive Bedienelementen
-                    unterstützen die manuelle Prüfung.
+                    Development of an intuitive and well-structured
+                    user interface. Interactive controls will support
+                    users during manual checks.
                 </p>
 
             </div>
@@ -560,12 +524,12 @@
             <div>
 
                 <h3>
-                    Ausstehend: Version&nbsp;1.0
+                    Planned: Version&nbsp;1.0
                 </h3>
 
                 <p>
-                    Veröffentlichung einer stabilen Version für
-                    die Validierung barrierefreier PDF-Dokumente.
+                    Release of a stable version for validating the
+                    accessibility of PDF documents.
                 </p>
 
             </div>
@@ -576,63 +540,56 @@
 
 </section>
 
-<section id="ueber-mich">
+<section id="about-me">
 
     <h2>
-        Über mich
+        About me
     </h2>
 
     <p class="intro">
-
-        Hinter Paicha steht kein Unternehmen, sondern ein
-        eigenständiges Softwareprojekt in der Entwicklungsphase.
-
+        Paicha is not a company. It is an independent software
+        project that is currently under development.
     </p>
     
     <p>
         Moin,<br>
-        ich bin ein Softwareentwickler aus Schleswig-Holstein und beschäftige mich
-        hauptberuflich seit ein paar Jahren mit der Programmierung von Windkraftanlagen,
-        deren Software komplexer aufgebaut ist, als so manch einer denkt. Der Bereich
-        passt nach einem erfolgreichen Ingenieursstudium in der Elektrotechnik und
-        Informationstechnik auch ziemlich gut zu mir.<br>
-        Doch seit Anfang des Jahres beschäftigt mich noch ein ganz anderes Thema,
-        nämlich die Frage, wie digitale Dokumente für Anwenderinnen und Anwender
-        mit Einschränkungen gut genutzt werden können.
+        I am a software developer from Schleswig-Holstein, Germany. Since a few
+        years I am working professionally on the software for wind turbines, which
+        is more complex than you might think. This field is a good fit for me,
+        because I have a degree in Electrical Engineering and Information Technology.<br>
+        However, since beginning of this year I have also been thinking about a
+        completely different topic: how digital documents can be made easier to use
+        for people with disabilities.
     </p>
 
     <p>
-        Das Ganze begann mit einer Bemerkung meines besten Freundes. Aufgrund
-        einer Erkrankung wird er in Zukunft zunehmend auf barrierefreie Dokumente
-        angewiesen sein.
-        Er hat sich bereits mit dem Thema auseinandergesetzt und mir bewusst
-        gemacht, welche Bedeutung digitale Barrierefreiheit für viele Menschen
-        im Alltag besitzt, aber wie viel Bedarf ausgerechnet in diesem Bereich
-        heute noch existiert.
+        It all started with a comment from my best friend. Because of an illness,
+        he will increasingly depend on accessible documents in the future.
+        He had already looked into the topic himself and made me realise how
+        important digital accessibility is for many people in their everyday
+        lives - and how much work still needs to be done in this area.
     </p>
 
     <p>
-        Barrierefreiheit sollte keine Hürde darstellen – weder für Menschen noch
-        für Organisationen, die digitale Informationen bereitstellen.<br>
-        Mein Ziel mit Paicha ist es nicht einfach nur ein Prüfwerkzeug zu entwickeln,
-        sondern einen Beitrag zu leisten, der allen Personen gleichermaßen Zugang
-        zur Digitalisierung erlaubt.
+        Accessibility should not be a barrier - neihter for people nor for organisations
+        that provide digital information.<br>
+        With Paicha, my goal is not simply to develop a tool, I want to contribute
+        to making sure that everyone has equal access to digitalization.
     </p>
 
 </section>
 
-<section id="kontakt">
+<section id="contact">
 
     <h2>
-        Kontakt
+        Contact
     </h2>
 
     <p>
-        Sie vertreten eine öffentliche Einrichtung, ein Unternehmen
-        oder eine Förderorganisation und möchten die Entwicklung eines
-        plattformunabhängigen Werkzeugs für digitale Barrierefreiheit
-        unterstützen?<br>
-        Ich freue mich über den Austausch.
+        You are representing a public institution, a company or a
+        funding organisation and would like to support the development
+        of a platform-independent tool for digital accessibility?<br>
+        I'd be happy to connect and discuss this with you.
     </p>
 
     <address>

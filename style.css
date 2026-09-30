@@ -221,6 +221,11 @@ header {
 
 }
 
+.header-top-right{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* ==========================================================
    7. Logo / Projektname
@@ -300,6 +305,32 @@ nav a:focus-visible {
 
     text-decoration: underline;
 
+}
+
+.language-toggle {
+  display: inline-flex;
+  align-self: flex-end;
+  align-items: center;
+  gap: 6px;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+}
+
+.language-toggle a {
+  color: #eee;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.language-toggle a:hover {
+  color: #666;
+  background: #eee;
+}
+
+.language-toggle .active {
+  color: #666;
+  background: #eee;
 }
 
 
