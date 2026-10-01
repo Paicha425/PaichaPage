@@ -21,8 +21,7 @@ The project is currently under development and already has a modular architectur
 A working demonstrator of the core concept is already available. It is still in an early stage of development and will be expanded over time. Its main purpose is to illustrate how the validation process is intended to work. The layout will be refined, and additional features will be added in future versions.<br><br>
 
 English Windows Version:
-https://raw.githubusercontent.com/Paicha425/PaichaPage/main/Paicha-Windows.zip
-
+https://raw.githubusercontent.com/Paicha425/PaichaPage/main/Paicha-Windows.zip<br>
 German Windows Version:
 https://raw.githubusercontent.com/Paicha425/PaichaPage/main/Paicha-Windows-DE.zip
 
