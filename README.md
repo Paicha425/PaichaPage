@@ -11,5 +11,4 @@ The project is currently under development and already has a modular architectur
 <p>
 The project website contains more information about the motivation, development status and goals of Paicha:<br>
 https://paicha425.github.io/PaichaPage/<br>
-Currently it is only available in German, but an Englisch version of the website is coming soon.
 </p>
