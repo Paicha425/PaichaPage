@@ -8,9 +8,7 @@ The project is currently under development and already has a modular architectur
 </p>
 
 <h2>Demonstrator</h2>
-<a href="./Paicha-Windows.zip" download>
-    Download for Windows
-</a>
+[Download for Windows](https://github.com/Paicha425/PaichaPage/releases/tag/Demonstrator/Paicha-Windows.zip)
 
 <h2>Project Website</h2>
 <p>
