@@ -10,6 +10,7 @@ The project is currently under development and already has a modular architectur
 <h2>Demonstrator</h2>
 English Windows Version:
 https://raw.githubusercontent.com/Paicha425/PaichaPage/main/Paicha-Windows.zip
+
 German Windows Version:
 https://raw.githubusercontent.com/Paicha425/PaichaPage/main/Paicha-Windows-DE.zip
 
