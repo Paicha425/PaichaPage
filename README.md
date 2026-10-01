@@ -8,7 +8,10 @@ The project is currently under development and already has a modular architectur
 </p>
 
 <h2>Demonstrator</h2>
+English Windows Version:
 https://raw.githubusercontent.com/Paicha425/PaichaPage/main/Paicha-Windows.zip
+German Windows Version:
+https://raw.githubusercontent.com/Paicha425/PaichaPage/main/Paicha-Windows-DE.zip
 
 <h3>Project Website</h3>
 <p>
