@@ -7,6 +7,11 @@ The goal is to make the validation of accessible PDF documents easier by combini
 The project is currently under development and already has a modular architecture and initial PDF accessibility validation rules. A usable technical demonstrator is the next step in the process.
 </p>
 
+<h2>Demonstrator</h2>
+<a href="Paicha-Windows.zip" download>
+    Download for Windows
+</a>
+
 <h2>Project Website</h2>
 <p>
 The project website contains more information about the motivation, development status and goals of Paicha:<br>
