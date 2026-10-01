@@ -8,13 +8,13 @@ The project is currently under development and already has a modular architectur
 </p>
 
 <h2>Project status</h2>
-✔ Project idea defined
-✔ Architecture designed
-✔ First validator checks implemented
-✚ Usable technical demonstrator
-○ More validator checks
-○ Testing and quality assurance
-○ Intuitive user interface
+✔ Project idea defined<br>
+✔ Architecture designed<br>
+✔ First validator checks implemented<br>
+✚ Usable technical demonstrator<br>
+○ More validator checks<br>
+○ Testing and quality assurance<br>
+○ Intuitive user interface<br>
 ○ Version 1.0
 
 <h3>Demonstrator</h3>
