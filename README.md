@@ -11,11 +11,11 @@ The project is currently under development and already has a modular architectur
 ✔ Project idea defined<br>
 ✔ Architecture designed<br>
 ✔ First validator checks implemented<br>
-✚ &nbsp;Usable technical demonstrator<br>
-○ &nbsp;More validator checks<br>
-○ &nbsp;Testing and quality assurance<br>
-○ &nbsp;Intuitive user interface<br>
-○ &nbsp;Version 1.0
+✚ &nbsp;&nbsp;Usable technical demonstrator<br>
+○ &nbsp;&nbsp;More validator checks<br>
+○ &nbsp;&nbsp;Testing and quality assurance<br>
+○ &nbsp;&nbsp;Intuitive user interface<br>
+○ &nbsp;&nbsp;Version 1.0
 
 <h3>Demonstrator</h3>
 A working demonstrator of the core concept is already available. It is still in an early stage of development and will be expanded over time. Its main purpose is to illustrate how the validation process is intended to work. The layout will be refined, and additional features will be added in future versions.<br><br>
