@@ -8,7 +8,9 @@ The project is currently under development and already has a modular architectur
 </p>
 
 <h2>Demonstrator</h2>
-[Download for Windows](./Paicha-Windows.zip)
+<a href="./Paicha-Windows.zip" download>
+    Download for Windows
+</a>
 
 <h2>Project Website</h2>
 <p>
